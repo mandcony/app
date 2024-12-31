@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Existing App Name",
+    "slug": "maicolandco-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/maicolcohome.png",
+    "splash": {
+      "image": "./assets/maicolcohome.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/maicolcohome.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.existingappslug"
+    },
+    "web": {
+      "favicon": "./assets/maicolcohome.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e0d5cd89-a577-489b-908a-e22886d3e056"
+      }
+    },
+    "owner": "maicolm"
+  }
+}
