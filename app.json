@@ -1,39 +1,33 @@
 {
   "expo": {
-    "name": "Existing App Name",
-    "slug": "maicolandco-app",
+    "name": "maicolandco",
+    "slug": "maicolandco",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/maicolcohome.png",
-    "splash": {
-      "image": "./assets/maicolcohome.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "platforms": ["ios", "android", "web"],
+    "web": {
+      "favicon": "./assets/maicolcohome.png",
+      "shortName": "MyPWA",
+      "themeColor": "#ffffff",
+      "backgroundColor": "#ffffff",
+      "lang": "en",
+      "display": "standalone",
+      "scope": "/",
+      "startUrl": "/"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.maicolandco"
     },
     "android": {
+      "package": "com.yourcompany.maicolandco",
       "adaptiveIcon": {
         "foregroundImage": "./assets/maicolcohome.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.anonymous.existingappslug"
-    },
-    "web": {
-      "favicon": "./assets/maicolcohome.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "e0d5cd89-a577-489b-908a-e22886d3e056"
       }
     },
-    "owner": "maicolm"
+    "description": "Your app description here",
+    "sdkVersion": "52.0.0"
   }
 }
